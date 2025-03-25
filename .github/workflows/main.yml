@@ -25,7 +25,7 @@ on:
        default: solutions/
 env:
 #edit your values here
-  ENVIRONMENT_URL: 'https://make.powerapps.com/environments/ceeaeb4b-d0fa-eac7-999b-93a5fb7edc03/home'
+  ENVIRONMENT_URL: 'https://orgc5739d51.crm.dynamics.com'
   CLIENT_ID: '05968040-e652-4936-a761-8b35d1bb86b4'
   TENANT_ID: '582af8b1-0ad0-4519-bae9-067c35c065c2'
 permissions:
