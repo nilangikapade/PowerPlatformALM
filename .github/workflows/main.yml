@@ -9,7 +9,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: ALMLab
+        default: PowwerPlatformALM
        #Do Not change these values
       solution_exported_folder:
         description: 'folder name for staging the exported solution *do not change*'
@@ -25,9 +25,9 @@ on:
        default: solutions/
 env:
 #edit your values here
-  ENVIRONMENT_URL: 'https://make.powerapps.com/environments/ceeaeb4b-d0fa-eac7-999b-93a5fb7edc03'
-  CLIENT_ID: '40d1484d-fca4-41b1-adf2-22aa1347977f'
-  TENANT_ID: '582af8b1-0ad0-4519-bae9-067c35c065c2'
+  ENVIRONMENT_URL: https://make.powerapps.com/environments/ceeaeb4b-d0fa-eac7-999b-93a5fb7edc03
+  CLIENT_ID: 40d1484d-fca4-41b1-adf2-22aa1347977f
+  TENANT_ID: 582af8b1-0ad0-4519-bae9-067c35c065c2
 permissions:
   contents: write
 jobs:
