@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{713d13ec-8276-4c62-92e1-2dae507849d4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{b5d4768e-9253-4a8d-b166-2bec3f771dc1}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{bce8be45-b4ba-46a2-9b06-4eed7bfda83a}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{fa21b5a6-9e4d-430c-940b-d0e506cd09cf}">
+                        <labels>
+                          <label description="ID" languagecode="1033" />
+                        </labels>
+                        <control id="ppalm_id" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ppalm_id" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c6de7c76-2d60-4323-9e15-2355d6638fea}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dff3afb2-cf00-48da-ad40-74f1ae9b0ff3}">
+                        <labels>
+                          <label description="clientimpact" languagecode="1033" />
+                        </labels>
+                        <control id="ppalm_clientimpact" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="ppalm_clientimpact" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96391fc6-4353-4ef5-8e57-ad560a832fb8}">
+                        <labels>
+                          <label description="exhibitedbehaviors" languagecode="1033" />
+                        </labels>
+                        <control id="ppalm_exhibitedbehaviors" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="ppalm_exhibitedbehaviors" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a3117840-cea3-4dc8-8ce9-d448d16431bc}">
+                        <labels>
+                          <label description="expectations" languagecode="1033" />
+                        </labels>
+                        <control id="ppalm_expectations" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="ppalm_expectations" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0672902c-029b-45b6-b65f-bd9462eb1d86}">
+                        <labels>
+                          <label description="experience" languagecode="1033" />
+                        </labels>
+                        <control id="ppalm_experience" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="ppalm_experience" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58d8a417-e088-4539-8c49-efba935c2636}">
+                        <labels>
+                          <label description="jobrole" languagecode="1033" />
+                        </labels>
+                        <control id="ppalm_jobrole" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="ppalm_jobrole" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{70ff505a-7bb4-4adf-8e9e-e03a4789293d}">
+                        <labels>
+                          <label description="location" languagecode="1033" />
+                        </labels>
+                        <control id="ppalm_location" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="ppalm_location" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

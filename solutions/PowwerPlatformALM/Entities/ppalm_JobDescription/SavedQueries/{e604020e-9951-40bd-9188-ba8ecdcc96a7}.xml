@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e604020e-9951-40bd-9188-ba8ecdcc96a7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ppalm_id" select="1" icon="1" preview="1">
+        <row name="result" id="ppalm_jobdescriptionid">
+          <cell name="ppalm_jobrole" width="150" />
+          <cell name="ppalm_location" width="150" />
+          <cell name="ppalm_experience" width="150" />
+          <cell name="ppalm_clientimpact" width="150" />
+          <cell name="ppalm_expectations" width="150" />
+          <cell name="ppalm_exhibitedbehaviors" width="150" />
+          <cell name="createdon" width="125" />
+          <cell name="ownerid" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ppalm_jobdescription">
+          <attribute name="ppalm_jobdescriptionid" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ppalm_clientimpact" />
+          <attribute name="ppalm_exhibitedbehaviors" />
+          <attribute name="ppalm_expectations" />
+          <attribute name="ppalm_experience" />
+          <attribute name="ppalm_jobrole" />
+          <attribute name="ppalm_location" />
+          <attribute name="ownerid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active JobDescriptions" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
